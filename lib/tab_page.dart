@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intagram_clon/home_page.dart';
+import 'package:intagram_clon/search_page.dart';
 
 class TabPage extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _TabState extends State<TabPage> {
 
   List _pages = [
     HomePage(),
-    Text('page2'),
+    SearchPage(),
     Text('page3'),
   ];
 
